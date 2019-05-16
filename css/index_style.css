@@ -1,0 +1,64 @@
+body
+{
+    font-family: "segoe ui light"
+
+}
+
+.phone
+{
+    border: 1px solid #6c757da1;
+    border-radius: 10px;
+    background-color: #5E5E54;
+}
+.title h2
+{
+    color: #6FAD2E;
+    font-weight: 700;
+    font-size: 35px;
+}
+.form-group label
+{
+    color: white;
+    font-size: 20px;
+}
+.btn 
+{
+   background-color:  #6FAD2E;
+    
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}
+.btn-info
+{
+    border-color: #6c757da1 !important;
+}
+.search
+{
+      border: 1px solid #6c757da1;
+    border-radius: 10px;
+    background-color: #5E5E54;
+    color: white;
+    padding-right: 50px;
+}
+.search label
+{
+      color: #6FAD2E !important; 
+}
+.table
+{
+    border: 1px solid #6c757da1;
+    border-radius: 10px;
+    background-color: #5E5E54;
+    color: white;
+}
+.table th
+{
+    color:  #6FAD2E !important; 
+}
+.btn-danger
+{
+     border-color: #6c757da1 !important;
+}

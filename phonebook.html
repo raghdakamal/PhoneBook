@@ -1,0 +1,73 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="css/bootstrap.min.css">      
+        
+<link rel="stylesheet" href="css/all.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Gamja+Flower" rel="stylesheet">
+
+ <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        
+        <!--fill table by data from user-->
+        
+        
+        <section class="main justify-content-center py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 px-4"></div>
+                <div class="col-md-4 justify-content-center">
+                <div class="phone py-3 px-5">
+                <div class="title text-center">
+                <h2>PhoneBook</h2>
+                </div>
+                <div class="form-group py-4">
+                <label>name:</label>
+                <input class="form-control" id="userName" type="text" placeholder="Name">
+                <label>phone:</label>
+                <input class="form-control" id="userphone" type="number">
+                <label>Email:</label>
+                <input class="form-control" id="usermail" type="email">
+                <button class="btn btn-info my-3" onclick="addUser()">add user</button>
+                    <br />
+
+                </div>
+                     </div>
+                    <br />
+                    <br />
+                    <div class="help py-2">
+                    <div class="search">
+                    <div class="form-group px-2">
+                    <label for="search" class="text-muted">Search For Contact</label>
+                    <input id="search" class="form-control" type="text" onkeyup="searchContact()" />
+                    </div>
+                    </div>
+                    <br />
+                   <div class="show" >
+                    <table class="table ">
+                    <thead>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Delete</th>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+
+                    </table>
+                </div>
+                    </div>   
+                </div>
+                </div>
+            </div>
+        </section>
+     
+            
+            
+           <script src="js/jquery-3.3.1.slim.min.js"></script>
+         <script src="js/popper.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
